@@ -1,10 +1,10 @@
 const pages = [
   ["Home", "index.html"],
-  ["About", "about.html"],
+  ["About Us", "about.html"],
   ["Services", "services.html"],
   ["Careers", "careers.html"],
   ["Resources", "resources.html"],
-  ["Contact", "contact.html"],
+  ["Contact Us", "contact.html"],
 ];
 const current = (
   location.pathname.split("/").pop() || "index.html"
